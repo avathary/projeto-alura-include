@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Inter&display=swap');
+
+:root {
+    --cor-primaria: #2D2424;
+    --cor-secundaria: #E0C097;
+    --cor-terciaria: #B85C38;
+    --hover: #5C3D2E;
+    --fonte-primaria: 'Inter', sans-serif;
+    --fonte-secundaria: 'Chakra Petch', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+}
+
+header{
+    height: 52px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-image: var(--cor-primaria);
+}
+
+nav {
+    text-align: center;
+    position: relative;
+}
+
+nav li {
+    display: inline-block;
+    margin: 16px 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+nav li:not(:last-child):after {
+    content: "•";
+    margin-left: 24px;
+    color: var(--cor-secundaria);
+}
+
+.me {
+    width: 1020px;
+    height: 480px;
+    margin: 0 auto;
+    padding-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.me_descricao {
+        display: inline-block;
+    
+}
+
+.me_titulo{
+    
+    font-size: 72px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+}
+
+.me_subtitulo{
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    color: var(--cor-secundaria);
+}
+
+.contato {
+    padding: 3% 0;
+    position: relative;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contato_completo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.icones-informacoes {
+    width: 16px;
+}
+
+.me_imagens{
+    width: 400px;
+    height: 400px;
+    padding: 5px 15px 20px;
+}
+
+.me_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;   
+}
+
+main {
+    background-color: var(--cor-secundaria);
+    padding: 40px;
+}
+
+.sobre_mim {
+    width: 1020px;
+    margin: 50px auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.foto_sobre_mim {
+    width: 400px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 1px 1px 16px var(--cor-terciaria);
+}
+
+.titulo {
+    padding: 20px 0;
+    font-weight: bold;
+    color: var(--hover);
+}
+
+.texto_sobre_mim {
+    color: var(--hover);
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.formacao{
+    width: 1020px;
+    margin: 0 auto;
+    position: relative;
+    gap: 1040px;
+
+}
+
+.background-texto {
+    background-color: var(--cor-primaria);
+    box-shadow: 1px 1px 16px var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    padding: 20px;
+    display: inline-block;
+    justify-content: space-around;
+    border-radius: 8px;
+    width: 45%;
+    box-sizing: border-box;
+    vertical-align: top;
+    
+}
+
+.box {
+    width: 1020px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.experiencias {
+    width: 1020px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.habilidades_interesses{
+    width: 1020px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.imagens_h{
+    width: 1020px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.imagens_i{
+    width: 1020px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+
+footer {
+    height: 180px;
+    padding-top: 32px;
+    text-align: center;
+}
+
+.footer_info {
+    color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+a { 
+    color: inherit; } 

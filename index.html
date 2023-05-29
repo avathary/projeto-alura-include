@@ -6,48 +6,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
 
-    <link rel="stylesheet" href=".css/style.css">
-    <link rel="stylesheet" href=".css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
     
 <body>
-    <header class="menu">
-        <nav class="menu_navegar">
-            <a class="menu_navegar_link">SOBRE MIM</a>
-            <a class="menu_navegar_link">EDUCAÇÃO</a>
-            <a class="menu_navegar_link">EXPERIÊNCIAS</a>
-            <a class="menu_navegar_link">HABILIDADES</a>
-            <a class="menu_navegar_link">INTERESSES</a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">sobre mim</a></li>
+                <li><a href="">formação</a></li>
+                <li><a href="">experiências</a></li>
+                <li><a href="">habilidades</a></li>
+                <li><a href="">interesses</a></li>
+            </ul>
         </nav>
     </header>
-    <main class="sobre">
-        <section class="sobre_mim">
-            <h1 class="sobre_mim_titulo">Karine Silva Freitas</h1>
-            <p class="sobre_mim_texto">Desenvolvedor Front-end</p>
-            <p class="sobre_mim_texto">email@outlook.com</p>
-            <p class="sobre_mim_texto">(62) 99491-5542</p>
-            <p class="sobre_mim_texto">Goiânia/GO - Brasil</p>
+    <section class="me">
+        <div class="me_descricao">
+            <h1 class="me_titulo">Karine Freitas</h1>
+            <h2 class="me_subtitulo">Desenvolvedor Front-end</h2>
+                <div class="contato">
+                    <div class="contato_completo">
+                        <img class="icones-informacoes" src="assets/email.png">
+                        <p>email@outlook.com</p>
+                    </div>
+                    <div class="contato_completo">
+                        <img class="icones-informacoes" src="assets/whatsapp.png">
+                        <p>(62) 99999-9999</p>
+                    </div>
+                    <div class="contato_completo">
+                        <img class="icones-informacoes" src="assets/pin.png">
+                        <p>Goiás - Brasil</p>
+                    </div>
+                    </div>
+        
+            </div>
+        </div>
+        <div class="me_imagens">
+            <img src="./assets/imagem-site.png" alt="Karine">
+            <div class="me_links">
+                <a class="me_redes" href="https://github.com/avathary"><img src="./assets/github.svg" alt="github"></a>
+                <a class="me_redes" href="https://www.linkedin.com/in/karine-s-freitas/"><img src="./assets/linkedin.svg" alt="linkedin"></a>
+                <a class="me_redes" href="https://instagram.com/avathary"><img src="./assets/instagram.svg" alt="instagram"></a>
+            </div>
+        </div>   
 
-            <img src="./assets/imagem-site.png" class="imagem" alt="Karine">
+    </section>
 
-            <a class="sobre_mim_redes" href="https://github.com/avathary">
-                <img src="./assets/github.svg" alt="github"> Github</a>
-            <a class="sobre_mim_redes" href="https://instagram.com/avathary">
-                <img src="./assets/instagram.svg" alt="instagram"> Instagram</a>
-            <a class="sobre_mim_redes" href="https://www.linkedin.com/in/karine-s-freitas/">
-                <img src="./assets/linkedin.svg" alt="linkedin">Linkedin</a>
-                
-        </section>
+    <main>
+        <div class="sobre_mim">
+            <img src="assets/sobre-mim.png" class="foto_sobre_mim">
+            <div class="texto_sobre_mim">
+                <h3 class="titulo">Sobre mim</h3>
+                <p>Sou um bibliotecário de formação com uma grande paixão pela tecnologia! No momento, estou me dedicando ao campo de Front-End, mas também tenho curiosidade em explorar outras áreas do desenvolvimento. Decidi criar esta página do zero para colocar meus conhecimentos em prática, além de compartilhar um pouco mais sobre minha trajetória e experiências!
+                </p>
+            </div>
+        </div>
+        <div class="formacao">
+            <h3 class="titulo">Formação<h3>
+            <div class="box">
+                <p class="background-texto">Bacharelado em Biblioteconoma<br><br>Universidade Federal de Goiás (2018 - 2023)
+                </p>
+                <p class="background-texto">Certificado Profissional Análise de dados<br><br>Google & Coursera (Nov/22 - Mai/23)
+                </p>
+            </div>
+        </div>
+        <div class="experiencias">
+            <h3 class="titulo">Experiência<h3>
+            <div class="box">
+                <p class="background-texto">Estágio (2021 - 2022)<br><br>Polícia Rodoviária Federal
+                </p>
+                <p class="background-texto">Estágio (2023 - )<br><br>StudioM Fotografia
+                </p>
+                <p class="background-texto">Voluntáriado (2018 - )<br><br>Voluntário em projetos acadêmicos que incluem projetos de extensão, associação atlética e centro acadêmico.
+                </p>
+                <p class="background-texto">Iniciação Tecnológica (2022 - 2023)<br><br>Projeto voltado para o desenvolvimento de um modelo de concepção e implementação de acervos para bibliotecas digitais.
+                </p>
+            </div>
+        </div>
+        <div class="habilidades_interesses">
+            <h3 class="titulo">Habilidades e Interesses<h3> 
+            <div class="imagens_h">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="40" height="40" alt="simbolo-javascript"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" width="40" height="40" alt="simbolo-html5"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" width="40" height="40" alt="simbolo-css"/>
+                <div class="imagens_i">
+                <img src="assets/gengar.png" alt="gengar">
+                <img src="assets/stardew-valley.svg" alt="stardew-valley">
+                <img src="assets/star-wars.svg" alt="star-wars">
+                <img src="assets/kakashi.svg" alt="kakashi">
+            </div>
+            </div>
+        </div>
 
     </main>
 
-    <footer class="rodape">
-        <p>Karine Freitas</p>
-        <p>2022</p>
-    </footer>
-
     <script src="main.js"></script>
 
+    <footer>
+        <div class="footer_info">
+            <img src="assets/mais.svg"><p class="fale-comigo">Fale comigo através do meu <a href="mailto:kah-vct@outlook.com">e-mail</a> ou <a href="https://www.convertte.com.br/gerador-link-whatsapp/" target="_blank">whatsapp</a>.</p>  
+        </div>
+        <br><br>
+        <p>Karine Freitas<br>2023</p>
+    </footer>
 </body>
 </html>
