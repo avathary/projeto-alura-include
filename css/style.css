@@ -26,7 +26,8 @@ header{
     position: fixed;
     left: 0;
     right: 0;
-    background-image: var(--cor-primaria);
+    background: var(--cor-primaria);
+    z-index: 1;
 }
 
 nav {
@@ -50,6 +51,10 @@ nav li:not(:last-child):after {
     color: var(--cor-secundaria);
 }
 
+nav li:target{
+    display: block;
+}
+
 .me {
     width: 1020px;
     height: 480px;
@@ -68,7 +73,7 @@ nav li:not(:last-child):after {
 
 .me_titulo{
     
-    font-size: 72px;
+    font-size: 4.5rem;
     font-weight: 400;
     color: var(--cor-secundaria);
 }
@@ -99,8 +104,8 @@ nav li:not(:last-child):after {
 }
 
 .me_imagens{
-    width: 400px;
-    height: 400px;
+    width: 40%;
+    height: 85%;
     padding: 5px 15px 20px;
 }
 
@@ -112,12 +117,14 @@ nav li:not(:last-child):after {
 }
 
 main {
+    box-sizing: border-box;
     background-color: var(--cor-secundaria);
     padding: 40px;
+    
 }
 
 .sobre_mim {
-    width: 1020px;
+    width: 80%;
     margin: 50px auto;
     position: relative;
     display: flex;
@@ -127,8 +134,7 @@ main {
 }
 
 .foto_sobre_mim {
-    width: 400px;
-    display: inline-block;
+    width: 40%;
     border-radius: 5px;
     box-shadow: 1px 1px 16px var(--cor-terciaria);
 }
@@ -146,10 +152,9 @@ main {
 }
 
 .formacao{
-    width: 1020px;
+    width: 82%;
     margin: 0 auto;
     position: relative;
-    gap: 1040px;
 
 }
 
@@ -168,7 +173,7 @@ main {
 }
 
 .box {
-    width: 1020px;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -178,20 +183,20 @@ main {
 }
 
 .experiencias {
-    width: 1020px;
+    width: 82%;
     margin: 0 auto;
     position: relative;
 }
 
 .habilidades_interesses{
-    width: 1020px;
+    width: 82%;
     margin: 0 auto;
     position: relative;
     
 }
 
 .imagens_h{
-    width: 1020px;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: flex-start;
@@ -200,7 +205,7 @@ main {
 }
 
 .imagens_i{
-    width: 1020px;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: flex-end;

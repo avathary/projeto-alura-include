@@ -1,0 +1,25 @@
+/* CSS media query pra celular */
+
+@media (max-width: 1200px) {
+
+.me {
+    flex-direction: column-reverse;
+    gap: 10%;
+    height: 120%;
+  }
+
+.me_imagens {
+    width: 40%;
+    height: 50%;
+}
+
+.foto_sobre_mim {
+    display: none;
+}
+
+.background-texto{
+    flex-direction: column;
+    width: 100%;
+}
+
+}
